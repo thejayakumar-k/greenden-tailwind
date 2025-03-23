@@ -11,4 +11,4 @@ let closenav = document.getElementById("closenav")
 
 closenav.addEventListener("click",function(){
     sidenav.style.right="-50%"
-})
+}) 
