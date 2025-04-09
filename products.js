@@ -19,7 +19,7 @@ var productContainer = document.getElementById("product-container");
 var search = document.getElementById("search");
 var productlist = productContainer.querySelectorAll("div");
 
-search.addEventListener("keyup",function(){
+search.addEventListener("keyup",function(event){
     var output = event.target.value.toUpperCase()
 
     for(count=0; count<productlist.length; count=count+1)
